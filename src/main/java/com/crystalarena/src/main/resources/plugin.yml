@@ -1,0 +1,8 @@
+name: CrystalArena
+main: com.crystalarena.CrystalArena
+version: 1.0
+api-version: 1.20
+author: CrystalArena
+description: Prevent block damage from crystals in specific worlds while still damaging players.
+
+commands: {}
