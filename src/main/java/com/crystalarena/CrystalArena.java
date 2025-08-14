@@ -29,7 +29,7 @@ public class CrystalArena extends JavaPlugin implements Listener {
     public void onExplosion(EntityExplodeEvent event) {
         World world = event.getLocation().getWorld();
         if (world != null && enabledWorlds.contains(world.getName())) {
-            if (event.getEntity() != null && event.getEntity().getType() == EntityType.ENDER_CRYSTAL) {
+            if (event.getEntity() != null && event.getEntity().getType() == EntityType.END_CRYSTAL) {
                 event.blockList().clear(); // Prevents block damage, keeps player damage
             }
         }
