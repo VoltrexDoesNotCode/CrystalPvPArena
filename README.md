@@ -14,3 +14,8 @@ This plugin simply allows players to damage players with crystals but blocks do 
 - After that run "cd CrystalPvPArena"
 - Then "mvn clean package"
 - The file should be located in "C:\Users\username\CrystalPvPArena\target"
+
+## Dependency 
+
+This plugin does NOT disable block breaking, you need to do that yourself with WorldGuard and WorldEdit.
+With //wand, create your arena then run /region define flatarena. Then /region flag flatarena block-break deny.
