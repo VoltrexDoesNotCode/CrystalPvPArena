@@ -10,7 +10,7 @@ This plugin simply allows players to damage players with crystals but blocks do 
 ## How To Build
 
 - Download Git Bash, Java 21 and Maven
-- Open Git Bash and run "git clone https://github.com/VoltrexDoesNotCode/CrystalPvPArena"
+- Open Git Bash and run "git clone https://github.com/VoltrexDoesNotCode/CrystalPvPArena.git"
 - After that run "cd CrystalPvPArena"
 - Then "mvn clean package"
 - The file should be located in "C:\Users\username\CrystalPvPArena\target"
