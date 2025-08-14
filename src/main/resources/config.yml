@@ -1,0 +1,3 @@
+# List of worlds where crystal explosions should NOT break blocks
+enabled-worlds:
+  - flatarena
